@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+drf-yasg = "*"
+django-cors-headers = "*"
+requests = "*"
+pandas = "*"
+bs4 = "*"
+lxml = "*"
+pyyaml = "*"
+uritemplate = "*"
+django-environ = "*"
+dj-database-url = "*"
+awscli = "*"
+boto3 = "*"
+botocore = "*"
+django-storages = "*"
+gunicorn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

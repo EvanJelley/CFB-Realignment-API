@@ -1,0 +1,14 @@
+setup:
+  addons:
+    - plan: ah-postgresql-stackhero
+build:
+  image: python:3.11
+  command:
+    - pip install -r requirements.txt
+    - python manage.py collectstatic --noinput
+release:
+  image: web
+  command:
+    - python manage.py collectstatic --noinput
+run:
+  web: gunicorn django_project.wsgi

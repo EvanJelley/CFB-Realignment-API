@@ -22,6 +22,7 @@ botocore = "*"
 django-storages = "*"
 gunicorn = "*"
 environs = "*"
+psycopg = "*"
 
 [dev-packages]
 

@@ -23,6 +23,7 @@ django-storages = "*"
 gunicorn = "*"
 environs = "*"
 psycopg = "*"
+pillow = "*"
 
 [dev-packages]
 

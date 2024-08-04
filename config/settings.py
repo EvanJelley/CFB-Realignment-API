@@ -187,7 +187,7 @@ else:
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS
-CORS_ORIGIN_WHITELIST = ['http://localhost:5173', 'http://localhost:8000', 'http://localhost:3000']
+CORS_ORIGIN_WHITELIST = ['http://localhost:5173', 'http://localhost:8000', 'http://localhost:3000', 'cfbrealignment.com', 'https://cfb-realignment-frontend-1570a6321f08.herokuapp.com/']
 
 # Email Settings
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

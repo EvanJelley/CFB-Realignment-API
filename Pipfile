@@ -24,6 +24,7 @@ gunicorn = "*"
 environs = "*"
 psycopg = "*"
 pillow = "*"
+django-cors = "*"
 
 [dev-packages]
 

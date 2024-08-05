@@ -187,10 +187,16 @@ else:
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS
-CORS_ORIGIN_WHITELIST = ['http://localhost:5173', 'http://localhost:8000', 'http://localhost:3000', 'https"//cfbrealignment.com', 'https://cfb-realignment-frontend-1570a6321f08.herokuapp.com/', 'https://www.cfbrealignment.com']
+CORS_ORIGIN_WHITELIST = ['http://localhost:5173', 
+    'http://localhost:8000',
+    'http://localhost:3000',
+    'https"//cfbrealignment.com',
+    'https://cfb-realignment-frontend-1570a6321f08.herokuapp.com/',
+    'https://www.cfbrealignment.com']
 CORS_ALLOWED_ORIGINS = [
     "https://cfbrealignment.com",
     "https://www.cfbrealignment.com",
+    "http://localhost:5173/",
 ]
 
 # Email Settings

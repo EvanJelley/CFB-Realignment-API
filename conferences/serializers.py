@@ -36,7 +36,7 @@ class MajorCitySerializer(serializers.ModelSerializer):
 
 class AllConferenceByYearSerializer(serializers.ModelSerializer):
     year = serializers.SerializerMethodField()
-    schools = SchoolSerializer(many=True)
+    schools = SchoolWithLogoSerializer(many=True)
     conference = serializers.SerializerMethodField()
     capital = MajorCitySerializer()
 

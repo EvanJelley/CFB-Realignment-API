@@ -196,7 +196,7 @@ CORS_ORIGIN_WHITELIST = ['http://localhost:5173',
 CORS_ALLOWED_ORIGINS = [
     "https://cfbrealignment.com",
     "https://www.cfbrealignment.com",
-    "http://localhost:5173/",
+    "http://localhost:5173",
 ]
 
 # Email Settings
